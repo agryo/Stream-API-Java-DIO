@@ -28,7 +28,9 @@ public class Desafio10 {
              * função de classificação. Ele cria um mapa onde as chaves são os resultados da classificação e os valores são
              * listas dos elementos que correspondem a cada chave. Ele é frequentemente usado quando você deseja agrupar
              * elementos em categorias com base em algum critério. Isso é útil para análise de dados, agregações e
-             * organização de informações.
+             * organização de informações. Ele é usado para agrupar elementos de um fluxo com base em uma função de classificação
+             * e criar um mapa onde as chaves representam as categorias e os valores são listas dos elementos correspondentes
+             * a cada categoria.
              */
             .collect(Collectors.groupingBy(numero -> (numero % 3 == 0) ? "Múltiplo de 3" : "Múltiplo de 5"));
 
