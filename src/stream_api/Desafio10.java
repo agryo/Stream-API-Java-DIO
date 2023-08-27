@@ -24,6 +24,11 @@ public class Desafio10 {
              *       K é o tipo das chaves do mapa resultante.
              *       "classifier" é uma função que mapeia um elemento "T" para uma chave "K" que será usada para agrupar
              *       os elementos.
+             * O método "groupingBy()" percorre o fluxo e coleta os elementos em grupos com base nas chaves geradas pela
+             * função de classificação. Ele cria um mapa onde as chaves são os resultados da classificação e os valores são
+             * listas dos elementos que correspondem a cada chave. Ele é frequentemente usado quando você deseja agrupar
+             * elementos em categorias com base em algum critério. Isso é útil para análise de dados, agregações e
+             * organização de informações.
              */
             .collect(Collectors.groupingBy(numero -> (numero % 3 == 0) ? "Múltiplo de 3" : "Múltiplo de 5"));
 
