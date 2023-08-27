@@ -2,7 +2,7 @@ package functional_interface.examples;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BinaryOperator;
+//import java.util.function.BinaryOperator;
 
 /**
  * Representa uma operação que combina dois argumentos do tipo T e retorna um resultado do mesmo tipo T.
